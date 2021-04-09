@@ -1,0 +1,22 @@
+Aplicações corporativas
+
+- Proposito Comercial
+- Oferece solução
+- Gerenciar um operação
+- Automizar Processo
+- Fornecer um produto ou serviço digital
+- Realizar integrações
+- Pode ser de pequeno, médio e grande porte
+- Atende um setor comercial
+- Atende uma regra de negocio
+- Implementar caracteristicas do mundo real
+- Proucupacoes 
+  = Facilidade nas mudanças (modelagem)
+  = Estabilidade
+  = Escalabilidade
+  = Performance
+  = Segurança
+  = Baixa Complexidade (a menor possivel)
+
+
+ 
