@@ -104,11 +104,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\Services\\Pedido\\NSE.Api.Pedido\\NSE.Api.Pedido.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\Services\\Pedido\\NSE.Api.Pedido\\NSE.Api.Pedido.csproj",
       "projectName": "NSE.Api.Pedido",
-      "projectPath": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\Services\\Pedido\\NSE.Api.Pedido\\NSE.Api.Pedido.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\Services\\Pedido\\NSE.Api.Pedido\\NSE.Api.Pedido.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\Services\\Pedido\\NSE.Api.Pedido\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\Services\\Pedido\\NSE.Api.Pedido\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

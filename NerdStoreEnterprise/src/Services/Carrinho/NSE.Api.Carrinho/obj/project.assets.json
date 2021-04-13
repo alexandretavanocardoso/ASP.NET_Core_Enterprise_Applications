@@ -104,11 +104,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\Services\\Carrinho\\NSE.Api.Carrinho\\NSE.Api.Carrinho.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\Services\\Carrinho\\NSE.Api.Carrinho\\NSE.Api.Carrinho.csproj",
       "projectName": "NSE.Api.Carrinho",
-      "projectPath": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\Services\\Carrinho\\NSE.Api.Carrinho\\NSE.Api.Carrinho.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\Services\\Carrinho\\NSE.Api.Carrinho\\NSE.Api.Carrinho.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\Services\\Carrinho\\NSE.Api.Carrinho\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\Services\\Carrinho\\NSE.Api.Carrinho\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

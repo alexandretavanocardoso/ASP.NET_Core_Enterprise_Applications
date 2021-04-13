@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
       "projectName": "NSE.Core",
-      "projectPath": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Desktop\\Enterrprise_Application\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Enterprise_Application\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
