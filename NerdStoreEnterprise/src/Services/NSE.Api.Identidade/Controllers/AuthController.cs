@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace NSE.Api.Identidade.Controllers
 {
+    [ApiController]
     [Route("api/Identidade")]
     public class AuthController : Controller
     {

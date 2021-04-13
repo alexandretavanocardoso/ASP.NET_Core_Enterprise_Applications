@@ -90,3 +90,7 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.RazorTargetAssemblyInfo.cache
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.csproj.CopyComplete
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.genruntimeconfig.cache
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
