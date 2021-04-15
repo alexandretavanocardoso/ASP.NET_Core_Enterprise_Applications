@@ -98,6 +98,17 @@ namespace NSE.Api.Identidade.Controllers
             // Lista de Claims
             var claims = await _userManager.GetClaimsAsync(user);
 
+            var identityClaims = await ObterClaimUsuario(claims, user);
+
+            // Token codificado com base na chave
+            var encodeToken = CodificarToken(identityClaims);
+
+            return ObterRespostaToken(encodeToken, user, claims);
+
+        }
+
+        private async Task<ClaimsIdentity> ObterClaimUsuario(ICollection<Claim> claims, IdentityUser user)
+        {
             // Lista de Roles
             var userRoles = await _userManager.GetRolesAsync(user);
 
@@ -111,15 +122,23 @@ namespace NSE.Api.Identidade.Controllers
             {
                 claims.Add(new Claim("role", userRole));
             }
+
             var identityClaims = new ClaimsIdentity();
             identityClaims.AddClaims(claims);
 
+            return identityClaims;
+
+        }
+
+        private string CodificarToken(ClaimsIdentity identityClaims)
+        {
             // Gerando manipulador do token
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
 
             // Gerando Token
-            var token = tokenHandler.CreateToken(new SecurityTokenDescriptor { 
+            var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
+            {
                 Issuer = _appSettings.Emissor,
                 Audience = _appSettings.ValidoEm,
                 Subject = identityClaims,
@@ -127,10 +146,13 @@ namespace NSE.Api.Identidade.Controllers
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             });
 
-            // Token codificado com base na chave
-            var encodeToken = tokenHandler.WriteToken(token);
+            return tokenHandler.WriteToken(token);
 
-            var response = new UsuarioRespostaLogin()
+        }
+
+        private UsuarioRespostaLogin ObterRespostaToken(string encodeToken, IdentityUser user, IEnumerable<Claim> claims)
+        {
+            return new UsuarioRespostaLogin()
             {
                 AccessToken = encodeToken,
                 ExpiresIn = TimeSpan.FromHours(_appSettings.ExpiracaoHoras).TotalSeconds,
@@ -141,12 +163,9 @@ namespace NSE.Api.Identidade.Controllers
                     Claims = claims.Select(c => new UsuarioClaim() { Type = c.Type, Value = c.Value })
                 }
             };
-
-            return response;
-
         }
 
         private static long ToUnixEpochDate(DateTime date)
-          => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
+            => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero)).TotalSeconds);
     }
 }
