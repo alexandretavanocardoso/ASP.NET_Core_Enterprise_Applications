@@ -39,6 +39,7 @@ namespace NSE.Api.Identidade
             // Configurando o Identity
             services.AddDefaultIdentity<IdentityUser>() // Usuario
                 .AddRoles<IdentityRole>() // Roles - perfis
+                .AddErrorDescriber<IdentityMensagemPortugues>() // Convertendo mensagens de erros em portugues
                 .AddEntityFrameworkStores<ApplicationDbContext>() // Context
                 .AddDefaultTokenProviders(); // Servico token
 
