@@ -18,8 +18,6 @@ C:\Users\usuario\Desktop\Enterrprise_Application\NerdStoreEnterprise\src\Service
 C:\Users\usuario\Desktop\Enterrprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.dll
 C:\Users\usuario\Desktop\Enterrprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.pdb
 C:\Users\usuario\Desktop\Enterrprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.genruntimeconfig.cache
-C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.dll
-C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.pdb
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\NSE.Api.Identidade.StaticWebAssets.xml
@@ -65,7 +63,11 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
@@ -89,8 +91,6 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Api.Identidade.styles.css
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.RazorTargetAssemblyInfo.cache
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.csproj.CopyComplete
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.dll
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.pdb
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.genruntimeconfig.cache
-C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
