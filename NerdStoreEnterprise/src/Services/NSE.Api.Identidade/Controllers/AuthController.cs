@@ -67,6 +67,8 @@ namespace NSE.Api.Identidade.Controllers
         [HttpPost("Autenticacao")]
         public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
         {
+            // return new StatusCodeResult(401); - Forçando erro
+
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
                                                                  //email              //senha             

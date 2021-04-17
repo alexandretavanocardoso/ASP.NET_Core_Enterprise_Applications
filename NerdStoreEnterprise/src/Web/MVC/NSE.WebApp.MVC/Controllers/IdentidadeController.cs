@@ -48,15 +48,17 @@ namespace NSE.WebApp.MVC.Controllers
 
         [HttpGet]
         [Route("autenticacao")]
-        public IActionResult Login()
+        public IActionResult Login(string returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl; // Guarda a informação de onde estava vindo o usuario
             return View();
         }
 
         [HttpPost]
         [Route("autenticacao")]
-        public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
+        public async Task<ActionResult> Login(UsuarioLogin usuarioLogin, string returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
             if (!ModelState.IsValid) return View(usuarioLogin);
 
             // Comunicacao API
@@ -68,7 +70,10 @@ namespace NSE.WebApp.MVC.Controllers
             // realizando o login
             await RealizarLogin(resposta);
 
-            return RedirectToAction("Index", "Home");
+            // Indo para pagina que usuario estava antes, ou apenas a index
+            if(string.IsNullOrEmpty(returnUrl)) return RedirectToAction("Index", "Home");
+
+            return LocalRedirect(returnUrl);
         }
 
         [HttpGet]

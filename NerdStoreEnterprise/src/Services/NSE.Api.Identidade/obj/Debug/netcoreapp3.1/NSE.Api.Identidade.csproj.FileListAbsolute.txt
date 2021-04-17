@@ -93,3 +93,4 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.pdb
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.genruntimeconfig.cache
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.csprojAssemblyReference.cache
