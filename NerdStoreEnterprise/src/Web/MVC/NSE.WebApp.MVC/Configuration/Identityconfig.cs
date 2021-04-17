@@ -8,7 +8,7 @@ namespace NSE.WebApp.MVC.Configuration
     {
         public static void AddIdentityConfiguration(this IServiceCollection services)
         {
-            // Configurando que a Aplicação vai trabalhas com autenticação
+            // Configurando que a Aplicação vai trabalhar com autenticação
             // Cookies
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options => 

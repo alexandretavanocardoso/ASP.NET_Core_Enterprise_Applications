@@ -80,7 +80,6 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.csprojAssemblyReference.cache
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.AssemblyInfoInputs.cache
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.AssemblyInfo.cs
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\NSE.Api.Identidade\obj\Debug\netcoreapp3.1\NSE.Api.Identidade.csproj.CoreCompileInputs.cache

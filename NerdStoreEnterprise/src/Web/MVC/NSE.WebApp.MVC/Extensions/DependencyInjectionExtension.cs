@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
 using NSE.WebApp.MVC.Services;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,10 @@ namespace NSE.WebApp.MVC.Extensions
         {
             // Serviço HTTP
             services.AddHttpClient<IAutenticacaoService, AutenticacaoService>();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddScoped<IUser, AspNetUser>();
         }
     }
 }

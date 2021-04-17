@@ -1,4 +1,5 @@
-﻿using NSE.WebApp.MVC.Models.Identidade;
+﻿using NSE.WebApp.MVC.Models;
+using NSE.WebApp.MVC.Models.Identidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NSE.WebApp.MVC.Services
 {
-    public class AutenticacaoService : IAutenticacaoService
+    public class AutenticacaoService : Service, IAutenticacaoService
     {
         private readonly HttpClient _httpClient;
 
@@ -22,18 +23,27 @@ namespace NSE.WebApp.MVC.Services
         {
             // retorna dado com formato string especifico
             var loginContent = new StringContent(
-                JsonSerializer.Serialize(usuarioLogin), 
+                JsonSerializer.Serialize(usuarioLogin),
                 Encoding.UTF8,
                 "application/json");
 
             // Chamada para a api
             var response = await _httpClient.PostAsync("https://localhost:44396/api/Identidade/Autenticacao", loginContent);
 
-            // Resolvendo problema de CaseSensitive do retorno Json
+            // Resolvendo problema de CaseSensitive do retorno Json (response)
             var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             };
+
+            // Tratando Erros de Response
+            if (!TratarErrosResponse(response))
+            {
+                return new UsuarioRespostaLogin()
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                };
+            }
 
             // transformando o formato do response em string
             return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
@@ -50,8 +60,23 @@ namespace NSE.WebApp.MVC.Services
             // Chamada para a api
             var response = await _httpClient.PostAsync("https://localhost:44396/api/Identidade/CriandoAutenticacao", registroContent);
 
+            // Resolvendo problema de CaseSensitive do retorno Json (response)
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            // Tratando Erros de Response
+            if (!TratarErrosResponse(response))
+            {
+                return new UsuarioRespostaLogin()
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), options)
+                };
+            }
+
             // transformando o formato do response em string
-            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync());
+            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), options);
         }
     }
 }
