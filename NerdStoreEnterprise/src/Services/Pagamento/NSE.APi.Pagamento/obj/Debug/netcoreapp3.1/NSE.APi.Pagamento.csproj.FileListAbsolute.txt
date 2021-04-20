@@ -37,3 +37,4 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pagamento\NSE.APi.Pagamento\obj\Debug\netcoreapp3.1\NSE.APi.Pagamento.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pagamento\NSE.APi.Pagamento\obj\Debug\netcoreapp3.1\NSE.APi.Pagamento.pdb
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pagamento\NSE.APi.Pagamento\obj\Debug\netcoreapp3.1\NSE.APi.Pagamento.genruntimeconfig.cache
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pagamento\NSE.APi.Pagamento\obj\Debug\netcoreapp3.1\NSE.APi.Pagamento.csprojAssemblyReference.cache

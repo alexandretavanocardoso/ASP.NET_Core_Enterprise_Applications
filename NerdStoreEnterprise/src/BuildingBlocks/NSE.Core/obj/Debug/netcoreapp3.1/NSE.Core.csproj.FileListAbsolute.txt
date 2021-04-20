@@ -15,3 +15,4 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Building
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\BuildingBlocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\BuildingBlocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\BuildingBlocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\BuildingBlocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csprojAssemblyReference.cache

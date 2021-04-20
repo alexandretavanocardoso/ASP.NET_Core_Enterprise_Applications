@@ -37,3 +37,4 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pedido\NSE.Api.Pedido\obj\Debug\netcoreapp3.1\NSE.Api.Pedido.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pedido\NSE.Api.Pedido\obj\Debug\netcoreapp3.1\NSE.Api.Pedido.pdb
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pedido\NSE.Api.Pedido\obj\Debug\netcoreapp3.1\NSE.Api.Pedido.genruntimeconfig.cache
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Pedido\NSE.Api.Pedido\obj\Debug\netcoreapp3.1\NSE.Api.Pedido.csprojAssemblyReference.cache

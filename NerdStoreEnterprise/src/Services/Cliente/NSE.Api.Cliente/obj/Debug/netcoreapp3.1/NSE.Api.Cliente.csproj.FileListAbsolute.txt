@@ -37,3 +37,4 @@ C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Cliente\NSE.Api.Cliente\obj\Debug\netcoreapp3.1\NSE.Api.Cliente.dll
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Cliente\NSE.Api.Cliente\obj\Debug\netcoreapp3.1\NSE.Api.Cliente.pdb
 C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Cliente\NSE.Api.Cliente\obj\Debug\netcoreapp3.1\NSE.Api.Cliente.genruntimeconfig.cache
+C:\Users\usuario\Desktop\Enterprise_Application\NerdStoreEnterprise\src\Services\Cliente\NSE.Api.Cliente\obj\Debug\netcoreapp3.1\NSE.Api.Cliente.csprojAssemblyReference.cache
